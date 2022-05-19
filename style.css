@@ -1,0 +1,24 @@
+:root{
+    --pri-color: #0ff;
+    --sec-color: #ff0;
+    --thi-color: #0f0;
+    --bkg-color: #101;}
+.flavor{
+    font-size: calc(0.8em + 0.2vmin);
+    text-shadow: 0 0 calc(2px + 0.2vmin) var(--pri-color);}
+.title{
+    font-size: calc(0.4em + 0.2vmin);
+    text-shadow: 0 0 calc(5px + 0.2vmin) var(--pri-color);}
+.centerdiv{
+    padding: calc(5px + 0.2vmin); position: absolute; top: 50%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%);
+    text-align: center; background: var(--bkg-color);
+    border: calc(3px + 0.2vmin) var(--pri-color) solid; border-radius: calc(20px + 0.2vmin); box-shadow: 0 0 calc(10px + 0.2vmin) var(--pri-color);}
+.icon{
+    color: transparent;
+    text-shadow: 0 0 var(--pri-color);}
+html {background-image: url(bg.png), radial-gradient(var(--bkg-color) 40%, var(--pri-color) 140%); background-repeat: repeat; image-rendering: pixelated; background-size: 60%, 100%;  background-attachment: fixed;}
+h1 {color: var(--pri-color); font-size: calc(2em + 0.2vmin); font-weight: bold; margin: 0; padding: 0;}
+p {color: var(--pri-color); font-size: calc(1em + 0.2vmin); font-weight: bold ; margin: 0; padding: 0;}
+a:link {text-decoration: none; color: var(--pri-color)}
+a:visited {text-decoration: none; color: var(--pri-color)}
+a:hover {text-decoration: none; color: var(--sec-color); text-shadow: 0 0 calc(2px + 0.2vmin) var(--sec-color);}
